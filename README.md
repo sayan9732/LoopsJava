@@ -74,7 +74,7 @@ public class Main{
 }
 
 //* Called double method & integer with the help of "this" command and we don't need to create "Objects" in second method
-//*    And "this" command dont run in the "Static method" itself remember.
+//*    And "this" command don't run in the "Static method" itself remember.
 
 public class Main{
     int i = 20;
