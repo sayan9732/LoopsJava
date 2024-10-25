@@ -94,4 +94,27 @@ public class Main{
 
     }
 }
+//Used "Super" keyword, with this keyword we can call both Constructors as well...
+
+class Main {
+    Main()
+
+    {
+        System.out.println("Sayan");
+    }
+
+}
+class B extends
+        Main {
+    B()
+    {
+        super();
+        System.out.println("Bimal");
+    }
+
+    public static void main(String[] args) {
+    new B();
+    }
+}
+
 
